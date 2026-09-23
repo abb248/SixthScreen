@@ -31,8 +31,8 @@ out/
 *.msi
 *.dmg
 
-# PDF files
-*.pdf
+# Local guide
+PROJECT-GUIDE.md
 
-# PDF files
-*.pdf
+# Local guide
+PROJECT-GUIDE.md
