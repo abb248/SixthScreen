@@ -1,0 +1,31 @@
+# ============================================================
+# SixthScreen — Backend Dependencies
+# ============================================================
+# Python packages required for the project.
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# Web Framework — for building the API
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# Database
+sqlalchemy==2.0.35          # ORM — work with database using Python objects
+psycopg2-binary==2.9.9      # PostgreSQL connection driver
+alembic==1.13.2              # Database migration tool
+
+# Math
+numpy==2.1.1                 # Vector computation (cosine similarity)
+
+# HTTP Requests
+httpx==0.27.2                # For calling TMDB API (async support)
+
+# Environment Variables
+python-dotenv==1.0.1         # Reads settings from .env file
+
+# CORS (frontend-backend communication)
+# Built into FastAPI, no extra package needed
+
+# Data Validation
+pydantic==2.9.2              # Request/Response model validation (comes with FastAPI)
+pydantic-settings==2.5.2     # Settings management

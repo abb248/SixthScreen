@@ -1,0 +1,38 @@
+# Bağımlılıklar
+*.pyc
+__pycache__/
+venv/
+.venv/
+*.egg-info/
+
+# Ortam değişkenleri (ŞİFRELER BURADA — ASLA GITHUB'A KOYMA!)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Node (frontend)
+node_modules/
+.next/
+out/
+
+# Büyük dosyalar (kurulum dosyaları — GitHub'a GİTMEMELİ!)
+*.exe
+*.msi
+*.dmg
+
+# PDF files
+*.pdf
+
+# PDF files
+*.pdf
